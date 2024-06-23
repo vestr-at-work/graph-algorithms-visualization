@@ -1,0 +1,56 @@
+[GRID DATA]
+3x3
+0
+7
+
+[NODES]
+0 0
+1 0
+2 0
+0 1
+1 1
+0 2
+1 2
+2 2
+
+
+[EDGES]
+0 1 50
+2 1 30
+0 3 20
+1 4 40
+4 3 25
+4 6 30
+3 5 40
+5 6 50
+6 7 70
+
+[VISUALIZATION]
+50
+80
+36
+60
+# light gray
+186 172 179
+
+[NODE PALETTE]
+# gray
+60 49 75
+# yellow
+248 229 89
+# yellow
+248 229 89
+# yellow
+248 229 89
+
+[EDGE PALETTE]
+# dark gray
+51 41 65
+# darker yellow
+228 209 70
+# navy
+59 52 134
+# slight offset 
+10 10 10
+# black
+0 0 0
