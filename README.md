@@ -4,7 +4,7 @@ This project is a tool for visualization runs of algorithms on a grid-like graph
 
 Example of the BFS algorithm visualization.
 
-![Visualization of BFS on 5x5 U-shaped grid graph](../data/ExampleBFSOutputBigger.gif)
+![Visualization of BFS on 5x5 U-shaped grid graph](data/ExampleBFSOutputBigger.gif)
 
 ## Project proposal
 
@@ -101,9 +101,9 @@ BFS algorithm uses path finding graph config which follows this pattern:
 Lines within ```[]``` are separating different sections of the config file. All the sections are mandatory and need to stay in the config file.
 Also all the items in the sections are mandatory, except items in ```[NODES]``` and ```[EDGES]``` of which there can be different amount (this is symbolized in the template by ```...```). Items on the same line have to be separated by (any) whitespace (except WIDTHxHEIGHT which are separated by ```x```) and one item has to be on one line just like shown in the template (RGB values of a color, node indecies etc. are taken as one item). Any empty lines are ignored. Config also supports sigle-line comments, any line starting with ```#``` is ignored.
 
-This [example BFS config file](../data/ExampleBFSConfig.txt) gives the following output.
+This [example BFS config file](data/ExampleBFSConfig.txt) gives the following output.
 
-![3x3 grid graph with the visualization of a run of BFS algorithm](../data/ExampleBFSOutput.gif)
+![3x3 grid graph with the visualization of a run of BFS algorithm](data/ExampleBFSOutput.gif)
 
 ##### Ford-Fulkerson (with BFS)
 
@@ -150,9 +150,9 @@ Pattern for config file of the Ford-Fulkerson algorithm:
 
 The config is kind of the same, but with different colorable states and with added capacity to the edges.
 
-This [example FF-BFS config file](../data/ExampleFF-BFSConfig.txt) gives the following output.
+This [example FF-BFS config file](data/ExampleFF-BFSConfig.txt) gives the following output.
 
-![3x3 grid graph with the visualization of a run of FF-BFS algorithm](../data/ExampleFF-BFSOutput.gif)
+![3x3 grid graph with the visualization of a run of FF-BFS algorithm](data/ExampleFF-BFSOutput.gif)
 
 You can run the examples in ```../data``` folder or modify them for your own graphs.
 
